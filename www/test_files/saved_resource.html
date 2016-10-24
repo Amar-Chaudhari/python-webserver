@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<!-- saved from url=(0095)chrome-extension://gagfkmknmijppikpcikmbbkdkhggcmge/views/web_accessible/adnotloaded/index.html -->
+<html><head lang="en"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title></title>
+    <link rel="stylesheet" href="chrome-extension://gagfkmknmijppikpcikmbbkdkhggcmge/views/web_accessible/common/common.css">
+    <style>
+        body, html {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            background: repeat url(background.jpg);
+        }
+
+        .container {
+            opacity: 0;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            height: 100%;
+        }
+
+        .container:hover {
+            opacity: 1;
+        }
+
+        .question-mark {
+            position: absolute;
+            top: 10px;
+            left: 5px;
+            font-size: 13px;
+            color: #999999;
+            cursor: pointer;
+        }
+
+        .description-container {
+            position: absolute;
+            top: 5px;
+            left: 0px;
+            display: none;
+            z-index: 1000;
+            max-width: 90%;
+            max-height: 90%;
+        }
+
+        .description {
+            font-size: 12px;
+            padding: 5px;
+            background-color: rgb(230, 230, 230);
+            margin-left: 25px;
+        }
+
+        .arrow {
+            position: absolute;
+            top: 5px;
+            left: 15px;
+            width: 0;
+            height: 0;
+            border-top: 10px solid transparent;
+            border-right: 10px solid rgb(230, 230, 230);
+            border-bottom: 10px solid transparent;
+        }
+
+        .logo {
+            position: absolute;
+            top: 5px;
+            left: 30px;
+            padding: 0;
+            margin: 0;
+        }
+
+    </style>
+</head>
+<body marginwidth="0" marginheight="0">
+    <div class="container">
+        <div id="question-mark" class="question-mark"><b>?</b></div>
+        <div id="description-container" class="description-container">
+            <div id="description" class="description">
+                <div class="arrow"></div>
+                <img class="logo" src="chrome-extension://gagfkmknmijppikpcikmbbkdkhggcmge/views/web_accessible/images/icon.png" width="20">
+                <br><br>
+                Thank you for using Stands!
+                <br>
+                We did not have an ad to serve at this time.
+            </div>
+        </div>
+    </div>
+    <script src="chrome-extension://gagfkmknmijppikpcikmbbkdkhggcmge/views/web_accessible/adnotloaded/adnotloaded.js" type="text/javascript"></script>
+
+</body></html>
